@@ -1,5 +1,95 @@
 <templateSet group="user">
-  <template name="fpT" value="import * as T from 'fp-ts/Task';" toReformat="false" toShortenFQNames="true">
+  <template name="phptest" value="/** @test */&#10;function $testName$(){&#10;    // Arrange&#10;    // Act&#10;    // Assert&#10;}" shortcut="ENTER" description="Create a php unit test" toReformat="true" toShortenFQNames="true">
+    <variable name="testName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name="userfactory" value="factory(User::class)-&gt;state('$role$')-&gt;create()" description="Create a user factory" toReformat="true" toShortenFQNames="true">
+    <variable name="role" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="graphqlresolver" value="    public function $name$($rootValue, array $args, GraphQLContext $context, ResolveInfo $resolveInfo)&#10;    {&#10;&#10;    }" description="Create a lighthouse graphql resolver function" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name="pure" value="/*#__PURE__*/" description="Add pure comment" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="fpRTE" value="import * as RTE from 'fp-ts/ReaderTaskEither';" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="fpIO" value="import * as I from 'fp-ts/IO';" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="fpO" value="import * as O from 'fp-ts/Option';" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="fpE" value="import * as E from 'fp-ts/Either'" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="fpRT" value="import * as RT from 'fp-ts/ReaderTask';" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ioD" value="import * as D from 'io-ts/Decoder';" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="moL" value="import * as L from 'monocle-ts/Lens';" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="fpT" value="import * as T from 'fp-ts/Task';" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="fpTE" value="import * as TE from 'fp-ts/TaskEither';" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="fpR" value="import * as R from 'fp-ts/Reader';" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="fpA" value="import * as A from 'fp-ts/Array';" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="fpRecord" value="import * as Record from 'fp-ts/Record';" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="fpJson" value="import * as JSON from 'fp-ts/Json';" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ioG" value="import * as G from 'io-ts/Guard';" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
     </context>
