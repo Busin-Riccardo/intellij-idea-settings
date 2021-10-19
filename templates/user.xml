@@ -1,0 +1,7 @@
+<templateSet group="user">
+  <template name="fpT" value="import * as T from 'fp-ts/Task';" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
