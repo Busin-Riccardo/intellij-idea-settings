@@ -3,7 +3,6 @@
     <keyboard-shortcut first-keystroke="shift meta e" />
     <keyboard-shortcut first-keystroke="meta 4" />
   </action>
-  <action id="ActivateTerminalToolWindow" />
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="f12" />
     <mouse-shortcut keystroke="meta button1" />
