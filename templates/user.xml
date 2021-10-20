@@ -94,4 +94,11 @@
       <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="pgFn" value="create or replace function $name$ ()&#10;returns $return$&#10;as $$$&#10;begin&#10;end;&#10;$$$ language plpgsql;" description="create a postgres function" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="return" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SQL_CODE_POSTGRES" value="true" />
+    </context>
+  </template>
 </templateSet>
