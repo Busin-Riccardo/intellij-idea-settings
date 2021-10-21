@@ -123,6 +123,18 @@
           <option name="key" value="shell_command exists" />
         </TemplateKey>
         <TemplateKey>
+          <option name="groupName" value="Maven" />
+          <option name="key" value="dep" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Maven" />
+          <option name="key" value="pl" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Maven" />
+          <option name="key" value="repo" />
+        </TemplateKey>
+        <TemplateKey>
           <option name="groupName" value="VgoHiddenTemplate" />
           <option name="key" value="vgo_lang_require" />
         </TemplateKey>
@@ -265,22 +277,6 @@
         <TemplateKey>
           <option name="groupName" value="GoHiddenTemplate" />
           <option name="key" value="fuzz" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="Maven" />
-          <option name="key" value="dep" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="Maven" />
-          <option name="key" value="pl" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="Maven" />
-          <option name="key" value="repo" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="Kotlin" />
-          <option name="key" value="object" />
         </TemplateKey>
         <TemplateKey>
           <option name="groupName" value="jsf" />
@@ -625,6 +621,10 @@
         <TemplateKey>
           <option name="groupName" value="spring" />
           <option name="key" value="httpServerFactoryBean" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Kotlin" />
+          <option name="key" value="object" />
         </TemplateKey>
       </list>
     </option>
