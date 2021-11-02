@@ -116,7 +116,7 @@
       <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="fpIOE" value="import * as IE from 'fp-ts/IOEither';" toReformat="false" toShortenFQNames="true">
+  <template name="fpIOE" value="import * as IE from 'fp-ts/IOEither';" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
     </context>
