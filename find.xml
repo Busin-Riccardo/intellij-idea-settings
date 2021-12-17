@@ -12,7 +12,7 @@
     <mask>*.properties</mask>
     <mask>*.java</mask>
     <mask>*.xml</mask>
-    <mask>*.php</mask>
     <mask>*.phtml</mask>
+    <mask>*.php</mask>
   </component>
 </application>
