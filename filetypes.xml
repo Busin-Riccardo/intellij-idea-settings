@@ -8,6 +8,7 @@
       <mapping pattern=".htaccess" type="PLAIN_TEXT" />
       <mapping ext="ok" type="PLAIN_TEXT" />
       <mapping ext="bkp" type="PLAIN_TEXT" />
+      <mapping ext="local" type="PLAIN_TEXT" />
       <mapping ext="old" type="PLAIN_TEXT" />
       <mapping ext="fd" type="PLAIN_TEXT" />
       <mapping ext="ini" type="PLAIN_TEXT" />
