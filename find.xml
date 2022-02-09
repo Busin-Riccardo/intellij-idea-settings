@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.js" />
     <mask>*.graphql</mask>
     <mask>*.ts</mask>
     <mask>*.css</mask>
@@ -11,9 +12,9 @@
     <mask>*.properties</mask>
     <mask>*.java</mask>
     <mask>*.php</mask>
-    <mask>*.xml</mask>
-    <mask>*.js</mask>
     <mask>*.less</mask>
     <mask>*.phtml</mask>
+    <mask>*.xml</mask>
+    <mask>*.js</mask>
   </component>
 </application>
