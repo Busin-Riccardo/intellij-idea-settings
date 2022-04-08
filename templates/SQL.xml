@@ -1,0 +1,12 @@
+<templateSet group="SQL">
+  <template name="jsonfilter" value="(($jsonb$ -&gt;&gt; '$name$') is null or&#10;$col$ $op$ ($jsonb$ -&gt;&gt; '$name$')::$type$)" toReformat="false" toShortenFQNames="true">
+    <variable name="jsonb" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="col" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="op" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+</templateSet>
