@@ -1,0 +1,9 @@
+<keymap version="1" name="Visual Studio (macOS) copy" parent="Visual Studio OSX">
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl back_quote" />
+  </action>
+  <action id="ShowBookmarks">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="w" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta w" />
+  </action>
+</keymap>
