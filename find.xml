@@ -5,7 +5,7 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.less" />
+    <option name="FILE_MASK" value="*.xml" />
     <mask>*.graphql</mask>
     <mask>*.css</mask>
     <mask>*.html</mask>
@@ -20,8 +20,8 @@
     <mask>*.json</mask>
     <mask>*.tsx</mask>
     <mask>*.ts</mask>
-    <mask>*.xml</mask>
     <mask>*.phtml</mask>
     <mask>*.less</mask>
+    <mask>*.xml</mask>
   </component>
 </application>
