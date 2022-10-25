@@ -14,11 +14,11 @@
     <mask>*.php</mask>
     <mask>tsconfig.json</mask>
     <mask>*.json</mask>
-    <mask>*.phtml</mask>
     <mask>*.js</mask>
     <mask>*.ts</mask>
     <mask>*.less</mask>
     <mask>*.xml</mask>
     <mask>*.tsx</mask>
+    <mask>*.phtml</mask>
   </component>
 </application>
