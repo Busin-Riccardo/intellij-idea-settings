@@ -6,7 +6,6 @@
     <option name="FILE_MASK" value="*.less" />
     <mask>*.graphql</mask>
     <mask>*.css</mask>
-    <mask>*.html</mask>
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
     <mask>*.java</mask>
@@ -21,6 +20,7 @@
     <mask>*.yml</mask>
     <mask>*.js</mask>
     <mask>*.xml</mask>
+    <mask>*.html</mask>
     <mask>*.less</mask>
   </component>
 </application>
